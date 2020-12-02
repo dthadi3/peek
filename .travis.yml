@@ -1,6 +1,10 @@
 language: c
 dist: bionic
 
+arch:
+  - AMD64
+  - ppc64le
+
 services:
   - docker
 
